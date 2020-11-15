@@ -1,0 +1,151 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'open sans';
+        background: #34495e;
+    }
+    
+    .contenedor {
+        width: 90%;
+        max-width: 1000px;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    ul {
+        position: relative;
+        width: 100%;
+        margin: 60px 0;
+    }
+    
+    ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        border: 1px solid #fff;
+        margin-right: 15px;
+        text-transform: capitalize;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.30);
+    }
+    
+    ul li hover,
+    .activo {
+        background: #fff;
+        color: #262626;
+        cursor: pointer;
+    }
+    
+    ul li hover,
+    .sec {
+        cursor: pointer;
+    }
+    
+    .contenedor .fotos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor .caja {
+        width: 32%;
+        height: 260px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.60);
+    }
+    
+    .contenedor .caja img {
+        width: 100%;
+        height: 90%;
+        vertical-align: top;
+        object-fit: cover;
+    }
+    
+    .caja hover img {
+        transform: scale(1.3);
+        transition: all ease 1.5s;
+        cursor: pointer;
+    }
+    
+    .geeks:hover img {
+        transform: scale(1.5);
+        transition: all ease 1.9s;
+        cursor: pointer;
+    }
+    
+    h5 {
+        font-size: x-large;
+        color: rgb(202, 202, 202);
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 0px;
+        padding: 0px;
+        padding-right: 30px;
+    }
+    
+    .nav-item {
+        box-shadow: none;
+        border: none;
+        margin-top: auto;
+    }
+    
+    .footer {
+        left: 0px;
+        bottom: 0px;
+        height: 40px;
+        width: 100%;
+        background: #34495e;
+        overflow: hidden;
+    }
+    
+    .foot {
+        color: rgb(192, 189, 189);
+        text-align: center;
+        font-size: large;
+        margin-top: 15px;
+    }
+    
+    .skills {
+        box-shadow: none;
+        border: none;
+        text-align: center;
+    }
+    
+    .skill {
+        width: 90%;
+        max-width: 1000px;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .skills hover {
+        cursor: pointer;
+    }
+    
+    h2 {
+        color: #fff;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .about {
+        width: 90%;
+        max-width: 1000px;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .pie {
+        margin-left: 155px;
+        box-shadow: none;
+        border: none;
+    }
