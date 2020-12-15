@@ -76,6 +76,12 @@
         transform: scale(1.5);
         transition: all ease 1.9s;
         cursor: pointer;
+        opacity: .3;
+    }
+    
+    .geeks:hover h5 {
+        font-weight: lighter;
+        color: blanchedalmond;
     }
     
     h5 {
