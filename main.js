@@ -22,9 +22,9 @@ const typed = new Typed('.typed', {
     strings: [
         '<i class="letras">Proactivo</i>',
         '<i class="letras">Apasionado de las nuevas Tecnologías</i>',
-        '<i class="letras">Me siento comodo con los nuevos retos</i>',
+        '<i class="letras">Gran capacidad de trabajo en equipo</i>',
         '<i class="letras">Siempre con ganas de aprender y seguir mejorando</i>',
-        '<i class="letras">Gran capacidad para trabajar en equipo</i>'
+
     ],
     //stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
     typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
@@ -39,3 +39,21 @@ const typed = new Typed('.typed', {
     cursorChar: '|', // Caracter para el cursor
     contentType: 'html', // 'html' o 'null' para texto sin formato
 });
+
+
+var d = new Date();
+var month = new Array(12);
+month[0] = 'Enero';
+month[1] = 'Febrero';
+month[2] = 'Marzo';
+month[3] = 'Abril';
+month[4] = 'Mayo';
+month[5] = 'Junio';
+month[6] = 'Julio';
+month[7] = 'Agosto';
+month[8] = 'Septiembre';
+month[9] = 'Octubre';
+month[10] = 'Noviembre';
+month[11] = 'Diciembre';
+var todaysDate = +d.getDate() + ' de ' + month[d.getUTCMonth()] + ' del ' + d.getUTCFullYear();
+document.getElementById('fechahoy').innerHTML = " " + todaysDate;

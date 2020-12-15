@@ -149,3 +149,9 @@
         box-shadow: none;
         border: none;
     }
+    
+    #fechahoy {
+        font-size: large;
+        text-align: center;
+        color: rgb(192, 189, 189);
+    }
