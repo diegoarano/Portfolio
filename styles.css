@@ -96,6 +96,7 @@
         margin-bottom: 0px;
         padding: 0px;
         padding-right: 30px;
+        cursor: pointer;
     }
     
     .nav-item {
@@ -160,4 +161,18 @@
         font-size: large;
         text-align: center;
         color: rgb(192, 189, 189);
+    }
+    
+    .colapsado {
+        width: 60%;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 540px;
+        align-items: center;
+        font-size: 18px;
+        border-radius: none;
+    }
+    
+    .card-body {
+        background-color: #f4f7f8;
     }
